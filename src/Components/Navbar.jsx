@@ -10,6 +10,12 @@ export const Navbar = () => {
                 <div className='w-4 h-4 bg-blue-600 rounded-full opacity-65'></div>
             </div>
             {/* desktop navigation */}
+            <div>
+              <li>Home</li>
+              <li>About</li>
+              <li>Services</li>
+              <li>Contact us</li>
+            </div>
             {/* get in touch btn */}
             {/* mobile menu */}
 
