@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import heroImg from '../assets/hero-image.png'
 
 export default function Hero() {
   return (
@@ -21,7 +22,7 @@ export default function Hero() {
 
           <p className='text-gray-600 text-lg md:text-xl max-w-xl'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quisquam culpa ducimus eaque, esse eum reiciendis at exercitationem hic sint?</p>
         
-        <div>
+        <div className='flex gap-3 max-w-md'>
           <input type="email" placeholder='email address' className='flex-1 px-6 py-4 border-gray-200 rounded-xl focus:outline-none focus:border-blue-600 focus:ring-2 focus:ring-blue-100 transition-all' />
 
           <button className='bg-blue-600 text-white px-8 py-4 rounded-xl hover:bg-blue-700 cursor-pointer transition-all hover:shadow-lg hover:shadow-blue-300'> →</button>
@@ -30,7 +31,12 @@ export default function Hero() {
         </div>
 
         {/* right col */}
-        <div className='w-full md:w-1/2'>left</div>
+        <div className='w-full md:w-1/2 mt-16 md:mt-0 pl-0 md:pl-12'>
+        <div className='relative'>
+          <img src={heroImg} className='rounded-lg relative z-10 hover:scale-[1.02] transition-transform duration-300' alt="" />
+
+        </div>
+        </div>
     </section>
   )
 }
