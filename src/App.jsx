@@ -1,6 +1,7 @@
 import { Navbar } from "./Components/Navbar"
 import {Hero} from "./Components/Hero"
 import { CompanyLogo } from "./Components/CompanyLogo"
+import {PurposeSection} from "./Components/PurposeSection"
 
 
 function App() {
@@ -11,7 +12,8 @@ function App() {
       <div className="overflow-hidden">
          <Navbar/>
          <Hero/>   
-         <CompanyLogo/>     
+         <CompanyLogo/>  
+         <PurposeSection/>   
       </div>
     </main>
   )
