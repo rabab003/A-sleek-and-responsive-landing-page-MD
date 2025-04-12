@@ -2,6 +2,8 @@ import { Navbar } from "./Components/Navbar"
 import {Hero} from "./Components/Hero"
 import { CompanyLogo } from "./Components/CompanyLogo"
 import {PurposeSection} from "./Components/PurposeSection"
+import Features from "./Components/Features"
+ 
 
 
 function App() {
@@ -13,7 +15,8 @@ function App() {
          <Navbar/>
          <Hero/>   
          <CompanyLogo/>  
-         <PurposeSection/>   
+         <PurposeSection/>
+         <Features/>   
       </div>
     </main>
   )
