@@ -3,6 +3,7 @@ import {Hero} from "./Components/Hero"
 import { CompanyLogo } from "./Components/CompanyLogo"
 import {PurposeSection} from "./Components/PurposeSection"
 import Features from "./Components/Features"
+import ScheduleSection from './Components/ScheduleSection'
  
 
 
@@ -16,7 +17,8 @@ function App() {
          <Hero/>   
          <CompanyLogo/>  
          <PurposeSection/>
-         <Features/>   
+         <Features/> 
+         <ScheduleSection/>  
       </div>
     </main>
   )
