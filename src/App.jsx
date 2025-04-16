@@ -5,6 +5,7 @@ import {PurposeSection} from "./Components/PurposeSection"
 import Features from "./Components/Features"
 import ScheduleSection from './Components/ScheduleSection'
 import MonitorSection from "./Components/MonitorSection"
+import PricingSection from "./Components/PricingSection"
  
 
 
@@ -21,6 +22,7 @@ function App() {
          <Features/> 
          <ScheduleSection/>  
          <MonitorSection/>
+         <PricingSection/>
       </div>
     </main>
   )
