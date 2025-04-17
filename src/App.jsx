@@ -6,7 +6,7 @@ import Features from "./Components/Features"
 import ScheduleSection from './Components/ScheduleSection'
 import MonitorSection from "./Components/MonitorSection"
 import PricingSection from "./Components/PricingSection"
- 
+ import ServicesSection from "./Components/ServicesSection"
 
 
 function App() {
