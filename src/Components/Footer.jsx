@@ -100,14 +100,8 @@ export default function Footer() {
               Created by Md Al Mamun
             </p>
           </div>
-        </div>
-
-
-
-
+         </div>
         </div>
     </footer>
   )
 }
-
-// 3:41:20
